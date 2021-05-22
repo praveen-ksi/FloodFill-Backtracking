@@ -1,0 +1,33 @@
+body {
+  background-color: aliceblue;
+  text-align: center;
+}
+.main-table {
+  background-color: transparent;
+  /* background-color: white; */
+  height: 80vh;
+  width: 60vw;
+  margin-top: 2vh;
+  margin-left: 20vw;
+  margin: 0, auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: center;
+  font-size: 2rem;
+}
+#submit,
+#btn {
+  background-color: transparent;
+  color: lightsalmon;
+  font-size: 1.5rem;
+  height: 5vh;
+  width: 9vw;
+}
+#btn {
+  margin: 0 auto;
+  display: none;
+}
+.col {
+  /* background-color: white; */
+  border-style: solid;
+}

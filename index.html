@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>RAT MAZE</title>
+  </head>
+  <h1>RAT IN A MAZE</h1>
+  <button type="button" id="btn" value="START">START</button>
+  <form action="" onsubmit="return false" id="vanish">
+    <label for="totalrow">ROWS: </label>
+    <input type="text" id="totalrow" placeholder="Enter Rows" />
+    <label for="totalcol">COLUMNS:</label>
+    <input type="text" id="totalcol" placeholder="Enter Columns" />
+    <br /><br />
+    <label for="numbers">ENTER NUMBERS: </label>
+    <input type="text" id="numbers" placeholder="(row*col)Numbers" />
+    <br /><br />
+    <input type="submit" id="submit" value="SUBMIT" />
+  </form>
+  <body>
+    <table class="main-table"></table>
+  </body>
+  <script src="init.js"></script>
+</html>
